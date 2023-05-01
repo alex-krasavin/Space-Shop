@@ -10,6 +10,14 @@
         .card__img {
             height: 180px;
         }
+
+        @media (max-width:700px) {
+            width: 200px;
+            
+            .card__img {
+                height: 150px;
+            }
+        }
     }
 
     &:hover {
