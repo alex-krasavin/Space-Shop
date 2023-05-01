@@ -1,10 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+@import "./fonts/fonts.scss";
 // Base
 @import "./base/vars";
 @import "./base/reset";
 @import "./base/base";
 
+//Blocks
+@import"./blocks/title-main";
+@import"./blocks/btn";
+@import"./blocks/title2";
+@import"./blocks/card";
+
 // section
 @import "./section/header";
+@import "./section/novelties";
+@import "./section/ship-day";
 
 @import "./section/footer";

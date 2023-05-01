@@ -8,18 +8,9 @@
 
     <!-- Title and SEO -->
     <title>spase shop</title>
-    <!-- <meta name="description" content="Описание страницы" />
-    <meta name="keywords" content="ключевые слова, фразы" /> -->
 
     <!-- Styles -->
     <link rel="stylesheet" href="./css/style.min.css" />
-
-    <!-- Open Graph -->
-    <!-- <meta property="og:url" content="https://webcademy.ru/" /> -->
-    <!-- <meta property="og:type" content="website" />
-    <meta property="og:title" content="Туристическое агентство Форест Тревел" />
-    <meta property="og:description" content="Турпоходы по дикой природе" />
-    <meta property="og:image" content="./img/opengraph.jpg"/> -->
 
     <!-- Favicons -->
     <!-- <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
@@ -33,7 +24,161 @@
     <meta name="theme-color" content="#ffffff"> -->
 </head>
 <body>
-    
+
+    <header class="header">
+        <div class="container">
+            <div class="header__nav">
+                <h1 class="title-main">Space Shop магазин кораблей</h1>
+                <a href="index.html" class="logo"><img src="./img/logo.png" alt="Space-shop logo"></a>
+                <button class="btn">личный кабинет</button>
+            </div>
+        </div>
+
+        <section class="novelties">
+            <div class="container">
+                <div class="novelties__title">
+                    <h2 class="title2">Наши новинки:</h2>
+                </div>
+
+                <div class="novelties__cards">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="./img/card1.png" alt="space ship">
+                        </div>
+                        <div class="card__descr">
+                            <div class="card__text">
+                                <p>«Чегантина» – парадный боевой крейсер</p>
+                            </div>
+                            <div class="card__price">
+                                <span class="price-old">$1 299</span>
+                                <span class="price-current">$999</span>
+                            </div>
+                            <button type="button" class="btn btn--card">Заказать</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="./img/card2.png" alt="space ship">
+                        </div>
+                        <div class="card__descr">
+                            <div class="card__text">
+                                <p>Космический корабль синего цвета <br> (c локаторами)</p>
+                            </div>
+                            <div class="card__price">
+                                <span class="price-old">$1899</span>
+                                <span class="price-current">$1299</span>
+                            </div>
+                            <button type="button" class="btn btn--card">Заказать</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="./img/card3.png" alt="space ship">
+                        </div>
+                        <div class="card__descr">
+                            <div class="card__text">
+                                <p>«Ночной ястреб» – Надежный корабль-перехватчик</p>
+                            </div>
+                            <div class="card__price">
+                                <span class="price-current">$799</span>
+                            </div>
+                            <button type="button" class="btn btn--card">Заказать</button>
+                        </div>
+                    </div>
+
+                    <div class="card card--big">
+                        <div class="card__img">
+                            <img src="./img/card-big4.png" alt="space ship">
+                        </div>
+                        <div class="card__descr">
+                            <div class="card__text">
+                                <p>«Карающий луч» – Полнофункциональный боевой корабль низкой ценовой категории</p>
+                            </div>
+                            <div class="card__price">
+                                <span class="price-current">$479</span>
+                            </div>
+                            <button type="button" class="btn btn--card">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="card card--big">
+                        <div class="card__img">
+                            <img src="./img/card-big5.png" alt="space ship">
+                        </div>
+                        <div class="card__descr">
+                            <div class="card__text">
+                                <p>«Антидоминатор» – <br> Дорогое и эффективное оружие против доминаторов.</p>
+                            </div>
+                            <div class="card__price">
+                                <span class="price-current">$1779</span>
+                            </div>
+                            <button type="button" class="btn btn--card">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="ship-day">
+        <div class="container">
+            <div class="ship-day__title">
+                <h2 class="title2">Корабль дня</h2>
+            </div>
+            <div class="card-day">
+                <div class="card-day__columns">
+                    <div class="card-day__column-img">
+                        <img src="./img/ship-of-the-day.png" alt="space ship">
+                    </div>
+
+                    <div class="card-day__column-text">
+                        <div class="ship-icons">
+                            <img src="./img/spaceship.svg" alt="space ship icon">
+                            <img src="./img/spaceship.svg" alt="space ship icon">
+                            <img src="./img/spaceship.svg" alt="space ship icon">
+                            <img src="./img/spaceship.svg" alt="space ship icon">
+                            <img src="./img/spaceship.svg" alt="space ship icon">
+                        </div>
+
+                        <div class="card-day__text">
+                            <p class="card-day__title">«Цербер»</p>
+                            <p class="card-day__descr">Маневренное патрульное судно, предназначенное&nbsp;для охраны систем.</p>
+                        </div>
+
+                        <div class="card-day__price">
+                            <span class="price-old">$1600</span>
+                            <span class="price-old">$1400</span>
+                            <span class="price-current">$800</span>
+                            <span class="price-discount">-50%</span>
+                        </div>
+
+                        <ul class="card-day__discount">
+                            <li class="card-day__discount-item">Скидка 
+                                <span class="upper">SPACESHOP</span>
+                                <span>$200</span>
+                            </li>
+                            <li class="card-day__discount-item">Промокод 
+                                <span class="upper">«КОРАБЛЬДНЯ3»</span>
+                                <span>$600</span>
+                            </li>
+                            <li class="card-day__discount-item">Вы эĸономите
+                                <span>$800</span>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+                <div class="card-day-btns">
+                    <button class="btn btn--tranperent">Корабльдня3</button>
+                    <button class="btn btn--big">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <script src="js/main.min.js"></script>
 </body>
 </html>
