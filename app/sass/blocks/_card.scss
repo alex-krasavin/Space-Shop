@@ -2,6 +2,7 @@
     width: 200px;
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 4px;
+    transition: all 0.3s ease-in;
 
     &--big {
         width: 305px;
@@ -9,6 +10,10 @@
         .card__img {
             height: 180px;
         }
+    }
+
+    &:hover {
+        transform: scale(1.1,1.1);
     }
 }
 
